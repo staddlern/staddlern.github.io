@@ -4,6 +4,43 @@
 		<title>staddlern.github.io</title>
 	</head>
 	<body>
-		<h1>Hello world!</h1>
+		<div>
+			<h1>Magic: The Gathering Keyword Dictionary</h1>
+			<p>Click "Browse All" at the top of the page to browse all known keywords, or use the filters below if you'd like to search for specific types of keywords.</p>
+		</div>
+		<div>
+			<form>
+				<label for="zones">Affected zones</label>
+				<select name="zones" id="zones">
+					<option value="any">Any</option>
+					<option value="exile">Exile</option>
+					<option value="field">Field</option>
+					<option value="graveyard">Graveyard</option>
+					<option value="hand">Hand</option>
+					<option value="library">Library</option>
+				</select>
+				<label for="timing">Effect timing</label>
+				<select name="timing" id="timing">
+					<option value="any">Any</option>
+					<option value="condition">Condition</option>
+					<option value="constant">Constant</option>
+					<option value="effect">Effect</option>
+					<option value="restriction">Restriction</option>
+				</select>
+				<label for="type">Type of effect</label>
+				<select name="type" id="type">
+					<option value="any">Any</option>
+					<option value="combat">Combat</option>
+					<option value="mana">Mana Cost</option>
+				</select>
+				<label for="keyword">Deciduous or Evergreen?</label>
+				<select name="keyword" id="keyword">
+					<option value="any">Any</option>
+					<option value="deciduous">Deciduous</option>
+					<option value="evergreen">Evergreen</option>
+				</select>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
 	</body>
 </html>
