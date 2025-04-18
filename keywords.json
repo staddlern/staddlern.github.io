@@ -1,7 +1,17 @@
 [
   {
+    "name": "",
+    "description": "",
+    "zones": [
+
+    ],
+    "timing": "",
+    "type": "",
+    "tree": ""
+  },
+  {
     "name": "Deathtouch",
-    "description": "Any amount of damage this deals to a creature is enough to destroy it",
+    "description": "Any amount of damage this deals to a creature is enough to destroy it.",
     "zones": [
       "field"
     ],
@@ -22,6 +32,26 @@
   {
     "name": "Double Strike",
     "description": "This creature deals both first-strike and regular combat damage.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Enchant",
+    "description": "This card can only be attached to a specific type of card or a player.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Equip",
+    "description": "Attach this permanent to target creature you control that matches a quality for the shown cost. Activate this ability only any time you could cast a sorcery.",
     "zones": [
       "field"
     ],
