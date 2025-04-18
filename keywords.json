@@ -2,9 +2,41 @@
   {
     "name": "",
     "description": "",
-    "zones": "",
-    "ability": "",
+    "zones": [
+
+    ],
+    "timing": "",
     "type": "",
     "tree": ""
+  },
+  {
+    "name": "Deathtouch",
+    "description": "Any amount of damage this deals to a creature is enough to destroy it",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Defender",
+    "description": "This creature can't attack.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Double Strike",
+    "description": "This creature deals both first-strike and regular combat damage.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "evergreen"
   }
 ]
