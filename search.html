@@ -15,9 +15,12 @@
 			</ul>
 		</div>
 		<script>
-			const response = await fetch('./keywords.json');
-			const data = await response.json();
-			console.log(data);
+			async function loadKeywords() {
+				const response = await fetch('./keywords.json');
+				const data = await response.json();
+				console.log(data);
+			}
+			loadKeywords();
 		</script>
 	</body>
 </html>
