@@ -11,14 +11,16 @@
 		</div>
 		<div>
 			<h1>Search Results:</h1>
-			<li id="keywordlist">
-			</li>
+			<ul id="keywordlist">
+			</ul>
 		</div>
 		<script>
+			let keyworddata;
 			fetch('keywords.json')
 				.then(response => response.json())
-				.then(data => console.log(data))
-				.catch(error => console.error('Error fetching JSON: '), error)
+				.then(data => keyworddata = data)
+				.catch(error => console.error('Error fetching JSON: ', error));
+			console.log(keyworddata);
 		</script>
 	</body>
 </html>
