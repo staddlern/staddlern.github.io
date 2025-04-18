@@ -15,11 +15,11 @@
 			</ul>
 		</div>
 		<script>
-			let keywordtext;
+			let keyworddata;
 			fetch('./keywords.json')
-				.then(response => response.text())
-				.then(text => keywordtext = text.toString());
-			document.getElementById("keywordlist").innerHTML = "<li>" + keywordtext + "</li>";
+				.then(response => response.json())
+				.then(keywords => keywordtext = keywords)
+				.then(() => console.log(keywords));
 		</script>
 	</body>
 </html>
