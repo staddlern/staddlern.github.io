@@ -18,8 +18,8 @@
 			let keyworddata;
 			fetch('./keywords.json')
 				.then(response => response.json())
-				.then(keywords => keywordtext = keywords);
-			console.log(keywordtext[0].name);
+				.then(keywords => keyworddata = keywords);
+			console.log(keyworddata[0].name);
 		</script>
 	</body>
 </html>
