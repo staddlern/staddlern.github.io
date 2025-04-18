@@ -6,8 +6,8 @@
 
     ],
     "timing": "",
-    "type": "",
-    "tree": ""
+    "type": "ability",
+    "tree": "evergreen"
   },
   {
     "name": "Deathtouch",
@@ -15,7 +15,7 @@
     "zones": [
       "field"
     ],
-    "timing": "static",
+    "timing": "battle",
     "type": "ability",
     "tree": "evergreen"
   },
@@ -25,7 +25,7 @@
     "zones": [
       "field"
     ],
-    "timing": "static",
+    "timing": "battle",
     "type": "ability",
     "tree": "evergreen"
   },
@@ -35,7 +35,7 @@
     "zones": [
       "field"
     ],
-    "timing": "action",
+    "timing": "battle",
     "type": "ability",
     "tree": "evergreen"
   },
@@ -56,6 +56,136 @@
       "field"
     ],
     "timing": "action",
+    "type": "ability",
+    "tree": "evergreen"
+  },
+  {
+    "name": "First Strike",
+    "description": "This creature deals combat damage before creatures without first strike.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Flash",
+    "description": "You may cast this spell any time you could cast an instant.",
+    "zones": [
+      "hand"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Flying",
+    "description": "This creature can't be blocked except by creatures with flying and/or reach.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Haste",
+    "description": "This creature can attack and tap itself as soon as it comes under your control.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Hexproof",
+    "description": "This permanent can't be the target of spells or abilities your opponents control. Can also specify that this ability only works on certain card types.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Indestructible",
+    "description": "Damage and effects that say 'destroy' don't destroy this.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Intimidate",
+    "description": "This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Landwalk",
+    "description": "This creature can't be blocked as long as the defending player controls a specific type of card.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Lifelink",
+    "description": "Damage dealt by this creature also causes you to gain that much life.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Reach",
+    "description": "This creature can block creatures with flying.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Trample",
+    "description": "This creature can deal excess combat damage to a player, planeswalker or battle it's attacking.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Vigilance",
+    "description": "Attacking doesn't cause this creature to tap",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Ward",
+    "description": "Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays the mana cost listed.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
     "type": "ability",
     "tree": "evergreen"
   }
