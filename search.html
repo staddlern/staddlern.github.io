@@ -18,7 +18,7 @@
 			let keywordtext;
 			fetch('./keywords.json')
 				.then(response => response.text())
-				.then(text => keywordtext = text);
+				.then(text => keywordtext = text.toString());
 			document.getElementById("keywordlist").innerHTML = "<li>" + keywordtext + "</li>";
 		</script>
 	</body>
