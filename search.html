@@ -17,8 +17,12 @@
 		<script>
 			async function loadKeywords() {
 				const response = await fetch('./keywords.json');
-				const data = await response.json();
-				console.log(data);
+				const keywordData = await response.json();
+				let keywordstring = "";
+				for (let i = 0; i < keywordData.length; i++) {
+					keywordstring += "<li><b>"+keywordData[i].name+"</b>: "+keywordData[i].description+"</li>";
+				}
+				document.getElementById("keywordlist").innerHTML = keywordstring;
 			}
 			loadKeywords();
 		</script>
