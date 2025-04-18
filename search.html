@@ -15,11 +15,9 @@
 			</ul>
 		</div>
 		<script>
-			let keyworddata;
-			fetch('./keywords.json')
-				.then(response => response.json())
-				.then(keywords => keyworddata = keywords)
-				.then(()=>console.log(keyworddata[0].name));
+			const response = await fetch('./keywords.json');
+			const data = await response.json();
+			console.log(data);
 		</script>
 	</body>
 </html>
