@@ -24,7 +24,9 @@
 				})
 				.catch(error => console.error('Error fetching JSON: ', error));
 			let searchedkeywords = "";
-			keyworddata.forEach((keyword)=>searchedkeywords = searchedkeywords + "<li>" + keyword['name'] + ": " + keyword['description'])+ "</li>";
+			for (let i = 0; i < keyworddata.length; i++) {
+				searchedkeywords = searchedkeywords + "<li>" + keyword[i].name + ": " + keyword[i].description + "</li>";
+			}
 			document.getElementById("keywordlist").innerHTML = keyworddata;
 		</script>
 	</body>
