@@ -19,7 +19,7 @@
 			fetch('./keywords.json')
 				.then(response => response.json())
 				.then(keywords => keywordtext = keywords)
-				.then(() => console.log(keywordtext[0]));
+				.then(() => console.log(keywordtext[0].name));
 		</script>
 	</body>
 </html>
