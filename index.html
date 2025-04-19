@@ -67,7 +67,7 @@
 				let c = document.forms["keywordsearch"]["type"].value;
 				let d = document.forms["keywordsearch"]["tree"].value;
 				for (let i = 0; i < keywordData.length; i++) {
-					if ((keywordData[i].zones == a || a == "any")
+					if ((keywordData[i].zones.includes(a) || a == "any")
 						&& (keywordData[i].timing == b || b == "any")
 						&& (keywordData[i].type == c || c == "any")
 						&& (keywordData[i].tree == d || d == "any")) {
