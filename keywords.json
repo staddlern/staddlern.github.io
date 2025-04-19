@@ -1,14 +1,14 @@
 [
-  {
+  /*{
     "name": "",
     "description": "",
     "zones": [
 
     ],
     "timing": "",
-    "type": "ability",
-    "tree": "evergreen"
-  },
+    "type": "",
+    "tree": ""
+  },*/
   {
     "name": "Deathtouch",
     "description": "Any amount of damage this deals to a creature is enough to destroy it.",
@@ -187,6 +187,101 @@
     ],
     "timing": "static",
     "type": "ability",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Attach",
+    "description": "To move an Aura, Equipment, or Fortification onto another object or player.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Counter",
+    "description": "Negate the effect/activation of a chosen spell and put it into the graveyard.",
+    "zones": [
+      "field",
+      "hand",
+      "graveyard",
+      "exile"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Exile",
+    "description": "Put a card into the Exile zone, removing it from the game outside of specific effects.",
+    "zones": [
+      "exile"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Mill",
+    "description": "Put cards from the top of the library equal to the listed value into the graveyard.",
+    "zones": [
+      "library",
+      "graveyard"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Regenerate",
+    "description": "The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "action",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Sacrifice",
+    "description": "To move a permanent you control to its owner's graveyard.",
+    "zones": [
+      "field",
+      "graveyard"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Scry",
+    "description": "Look at a certain number of cards from the top of your library, then put any number of them on the bottom of your library and the rest on top in any order.",
+    "zones": [
+      "library"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Search",
+    "description": "To look at all cards in your library and find a card that matches the given description.",
+    "zones": [
+      "library"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Tap",
+    "description": "Turn a permanent 90 degrees to either use an activated ability, declare a creature as an attacker, or pay the cost for some kind of ability.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
     "tree": "evergreen"
   }
 ]
