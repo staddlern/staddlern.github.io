@@ -171,7 +171,7 @@
   },
   {
     "name": "Ward",
-    "description": "Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays the mana cost listed.",
+    "description": "Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays the cost listed.",
     "zones": [
       "field"
     ],
