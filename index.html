@@ -60,6 +60,7 @@
 			async function loadKeywords() {
 				const response = await fetch('./keywordslist.json');
 				const keywordData = await response.json();
+				keywordData.sort((a, b) => (a.name > b.name ? 1 : -1));
 				let keywordstring = "";
 				let a = document.forms["keywordsearch"]["zones"].value;
 				let b = document.forms["keywordsearch"]["timing"].value;
