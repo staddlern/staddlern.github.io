@@ -1,14 +1,4 @@
 [
-  /*{
-    "name": "",
-    "description": "",
-    "zones": [
-
-    ],
-    "timing": "",
-    "type": "",
-    "tree": ""
-  },*/
   {
     "name": "Deathtouch",
     "description": "Any amount of damage this deals to a creature is enough to destroy it.",
