@@ -6,7 +6,6 @@
 	<body>
 		<div>
 			<a href="/about">About</a>
-			<a href="/search">Browse All</a>
 			<a href="/index">Search</a>
 		</div>
 		<div>
@@ -14,7 +13,7 @@
 			<p>Click "Browse All" at the top of the page to browse all known keywords, or use the filters below if you'd like to search for specific types of keywords.</p>
 		</div>
 		<div>
-			<form action="/search">
+			<form>
 				<label for="zones">Affected zones</label>
 				<select name="zones" id="zones">
 					<option value="any">Any</option>
@@ -50,8 +49,23 @@
 				</select>
 				<br>
 				<br>
-				<input type="submit" value="Submit">
+				<input type="submit" value="Submit" onclick="loadKeywords()">
 			</form>
 		</div>
+		<div>
+			<ul id="keywordlist">
+			</ul>
+		</div>
+		<script>
+			async function loadKeywords() {
+				const response = await fetch('./keywords.json');
+				const keywordData = await response.json();
+				let keywordstring = "";
+				for (let i = 0; i < keywordData.length; i++) {
+					keywordstring += "<li><b>"+keywordData[i].name+"</b>: "+keywordData[i].description+"</li>";
+				}
+				document.getElementById("keywordlist").innerHTML = keywordstring;
+			}
+		</script>
 	</body>
 </html>
