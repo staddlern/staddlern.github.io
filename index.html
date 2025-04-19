@@ -13,7 +13,7 @@
 			<p>Click "Browse All" at the top of the page to browse all known keywords, or use the filters below if you'd like to search for specific types of keywords.</p>
 		</div>
 		<div>
-			<form>
+			<form name="keywordsearch">
 				<label for="zones">Affected zones</label>
 				<select name="zones" id="zones">
 					<option value="any">Any</option>
@@ -61,8 +61,17 @@
 				const response = await fetch('./keywords.json');
 				const keywordData = await response.json();
 				let keywordstring = "";
+				let a = document.forms["keywordsearch"]["zones"].value;
+				let b = document.forms["keywordsearch"]["timing"].value;
+				let c = document.forms["keywordsearch"]["type"].value;
+				let d = document.forms["keywordsearch"]["tree"].value;
 				for (let i = 0; i < keywordData.length; i++) {
-					keywordstring += "<li><b>"+keywordData[i].name+"</b>: "+keywordData[i].description+"</li>";
+					if ((keywordData[i].zones == a || a == "any")
+						&& (keywordData[i].timing == b || b == "any")
+						&& (keywordData[i].type == c || c == "any")
+						&& (keywordData[i].tree == d || d == "any")) {
+						keywordstring += "<li><b>"+keywordData[i].name+"</b>: "+keywordData[i].description+"</li>";
+					}
 				}
 				document.getElementById("keywordlist").innerHTML = keywordstring;
 			}
