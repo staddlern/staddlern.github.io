@@ -2,6 +2,7 @@ body {
 	background-color: lightblue;
 }
 
-p, h1, li {
+p, h1, li, label {
 	color: navy;
+	font-family: "Verdana", Helvetica, sans-serif;
 }
