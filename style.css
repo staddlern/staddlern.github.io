@@ -12,6 +12,7 @@ p, h1, li, label {
 	color: #000080;
 	padding: 10px 24px;
 	border: 2px solid #000080;
+	margin: 5px;
 	transition-duration: 0.3s;
 }
 
