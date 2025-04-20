@@ -1,5 +1,5 @@
 body {
-	background-color: lightblue;
+	background-color: #add8e6;
 }
 
 p, h1, li, label {
@@ -8,8 +8,13 @@ p, h1, li, label {
 }
 
 .buttons {
-	background-color: lightblue;
+	background-color: #add8e6;
 	color: navy;
 	padding: 10px 24px;
-	border: 2px solid lightblue;
+	border: 2px solid #add8e6;
+	transition-duration: 0.3s;
+}
+
+.buttons#hover {
+	background-color: #5c98ab;
 }
