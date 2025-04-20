@@ -15,36 +15,44 @@
 		</div>
 		<div class="search">
 			<form name="keywordsearch">
-				<label for="zones">Affected zones</label>
-				<select name="zones" id="zones">
-					<option value="any">Any</option>
-					<option value="exile">Exile</option>
-					<option value="field">Field</option>
-					<option value="graveyard">Graveyard</option>
-					<option value="hand">Hand</option>
-					<option value="library">Library</option>
-				</select>
-				<label for="timing">When is the keyword active?</label>
-				<select name="timing" id="timing">
-					<option value="any">Any</option>
-					<option value="action">Action</option>
-					<option value="battle">Battle</option>
-					<option value="characteristic">Characteristic</option>
-					<option value="condition">Condition</option>
-					<option value="static">Static</option>
-				</select>
-				<label for="type">Ability or Action?</label>
-				<select name="type" id="type">
-					<option value="any">Any</option>
-					<option value="ability">Ability</option>
-					<option value="action">Action</option>
-				</select>
-				<label for="tree">Deciduous or Evergreen?</label>
-				<select name="tree" id="tree">
-					<option value="any">Any</option>
-					<option value="deciduous">Deciduous</option>
-					<option value="evergreen">Evergreen</option>
-				</select>
+				<div class="select">
+					<label for="zones">Affected zones</label>
+					<select name="zones" id="zones">
+						<option value="any">Any</option>
+						<option value="exile">Exile</option>
+						<option value="field">Field</option>
+						<option value="graveyard">Graveyard</option>
+						<option value="hand">Hand</option>
+						<option value="library">Library</option>
+					</select>
+				</div>
+				<div class="select">
+					<label for="timing">When is the keyword active?</label>
+					<select name="timing" id="timing">
+						<option value="any">Any</option>
+						<option value="action">Action</option>
+						<option value="battle">Battle</option>
+						<option value="characteristic">Characteristic</option>
+						<option value="condition">Condition</option>
+						<option value="static">Static</option>
+					</select>
+				</div>
+				<div class="select">
+					<label for="type">Ability or Action?</label>
+					<select name="type" id="type">
+						<option value="any">Any</option>
+						<option value="ability">Ability</option>
+						<option value="action">Action</option>
+					</select>
+				</div>
+				<div class="select">
+					<label for="tree">Deciduous or Evergreen?</label>
+					<select name="tree" id="tree">
+						<option value="any">Any</option>
+						<option value="deciduous">Deciduous</option>
+						<option value="evergreen">Evergreen</option>
+					</select>
+				</div>
 				<br>
 				<br>
 				<input type="button" class="buttons" value="Submit" onclick="loadKeywords()">

@@ -15,17 +15,6 @@ p, h1, li, label {
 	font-family: "Verdana", Helvetica, sans-serif;
 }
 
-input {
-	background-color:#83dbf7;
-}
-
-input:hover {
-	background-color:#42c1eb;
-}
-
-select {
-	margin:10px;
-}
 .buttons {
 	background-color: #add8e6;
 	color: #000080;
@@ -46,5 +35,10 @@ select {
 .search {
 	border: 4px solid #000080;
 	background-color: #83dbf7;
-	margin:10%;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.select {
+	margin:10px;
 }
