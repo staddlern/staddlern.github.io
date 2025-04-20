@@ -38,5 +38,6 @@ p, h1, li, label {
 }
 
 .select {
-	margin:10px;
+	left-margin:10px;
+	right-margin:10px;
 }
