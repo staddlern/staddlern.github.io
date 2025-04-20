@@ -6,6 +6,10 @@ div {
 	padding: 10px;
 }
 
+a {
+	text-decoration:none;
+}
+
 p, h1, li, label {
 	color: #000080;
 	font-family: "Verdana", Helvetica, sans-serif;
@@ -22,4 +26,8 @@ p, h1, li, label {
 
 .buttons:hover {
 	background-color: #5c98ab;
+}
+
+.explain, .search {
+	text-align:center;
 }
