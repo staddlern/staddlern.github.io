@@ -15,6 +15,6 @@ p, h1, li, label {
 	transition-duration: 0.3s;
 }
 
-.buttons#hover {
+.buttons:hover {
 	background-color: #5c98ab;
 }
