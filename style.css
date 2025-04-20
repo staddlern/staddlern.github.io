@@ -3,15 +3,15 @@ body {
 }
 
 p, h1, li, label {
-	color: navy;
+	color: #000080;
 	font-family: "Verdana", Helvetica, sans-serif;
 }
 
 .buttons {
 	background-color: #add8e6;
-	color: navy;
+	color: #000080;
 	padding: 10px 24px;
-	border: 2px solid #add8e6;
+	border: 2px solid #000080;
 	transition-duration: 0.3s;
 }
 
