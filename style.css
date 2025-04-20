@@ -11,4 +11,5 @@ p, h1, li, label {
 	background-color: lightblue;
 	color: navy;
 	padding: 10px 24px;
+	border: 2px solid lightblue;
 }
