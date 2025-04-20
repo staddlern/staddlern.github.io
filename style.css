@@ -19,6 +19,8 @@ li {
 	background-color:#83dbf7;
 	border: 4px solid #000080;
 	margin:5px;
+	padding:10px;
+	list-style-type:none;
 }
 
 .buttons {
