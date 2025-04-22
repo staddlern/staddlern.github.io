@@ -73,11 +73,16 @@
 				let b = document.forms["keywordsearch"]["timing"].value;
 				let c = document.forms["keywordsearch"]["type"].value;
 				let d = document.forms["keywordsearch"]["tree"].value;
+				let last = "";
 				for (let i = 0; i < keywordData.length; i++) {
 					if ((keywordData[i].zones.includes(a) || a == "any")
 						&& (keywordData[i].timing == b || b == "any")
 						&& (keywordData[i].type == c || c == "any")
 						&& (keywordData[i].tree == d || d == "any")) {
+						if (last != keywordData[i].name.) {
+							keywordstring += "<h2>"+keywordData[i].name.substring(0, 1)+":</h2>";
+							last = keywordData[i].name.substring(0, 1);
+						}
 						keywordstring += "<li><b>"+keywordData[i].name+"</b>: "+keywordData[i].description+"</li>";
 					}
 				}
