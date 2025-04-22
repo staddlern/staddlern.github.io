@@ -86,7 +86,12 @@
 						keywordstring += "<li><b>"+keywordData[i].name+"</b>: "+keywordData[i].description+"</li>";
 					}
 				}
-				document.getElementById("keywordlist").innerHTML = keywordstring;
+				if (keywordstring == "") {
+					document.getElementById("keywordlist").innerHTML = "<li>No keywords found.</li>";
+				}
+				else {
+					document.getElementById("keywordlist").innerHTML = keywordstring;
+				}
 			}
 		</script>
 	</body>
