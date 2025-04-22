@@ -678,5 +678,221 @@
     "timing": "action",
     "type": "ability",
     "tree": "deciduous"
+  },
+  {
+    "name": "Graft",
+    "description": "This creature enters the battlefield with a number of +1/+1 counters on it. Whenever another creature enters the battlefield, you may move a +1/+1 counter from this creature onto it.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Recover",
+    "description": "When a creature is put into your graveyard from the battlefield, you may pay the listed cost. If you do, return this card from your graveyard to your hand. Otherwise, exile this card.",
+    "zones": [
+      "hand",
+      "graveyard",
+      "exile"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Ripple",
+    "description": "When you cast this spell, you may reveal a number of cards from the top of your library. You may cast any revealed cards with the same name as this spell without paying their mana costs. Put the rest on the bottom of your library.",
+    "zones": [
+      "field",
+      "library"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Split Second",
+    "description": "As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.",
+    "zones": [
+      "stack"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Suspend",
+    "description": "Rather than cast this card from your hand, you may pay its Suspend cost and exile it with a number of time counters on it. At the beginning of your upkeep, remove a time counter. When the last one is removed, you may cast it without paying its mana cost. It has haste.",
+    "zones": [
+      "exile"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Vanishing",
+    "description": "This permanent enters with a number of time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it",
+    "zones": [
+      "field",
+      "graveyard"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Absorb",
+    "description": "If a source would deal damage to this creature, prevent a certain amount of that damage.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Aura Swap",
+    "description": "Pay a specified cost: Exchange this Aura with an Aura card in your hand.",
+    "zones": [
+      "field",
+      "hand"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Delve",
+    "description": "Each card you exile from your graveyard while casting this spell pays for 1 colorless mana.",
+    "zones": [
+      "graveyard",
+      "exile"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Fortify",
+    "description": "Pay a specified cost: Attach this Fortification to target land you control. Activate only as a sorcery.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Frenzy",
+    "description": "Whenever this creature attacks and isn't blocked, it gets +X/+0 until end of turn.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Gravestorm",
+    "description": "When you cast this spell, copy it for each permanent put into a graveyard this turn. You may choose new targets for the copies.",
+    "zones": [
+      "graveyard"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Poisonous",
+    "description": "Whenever this creature deals combat damage to a player, that player gets a certain number of poison counters.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Transfigure",
+    "description": "Pay the specified cost and sacrifice this permanent: Search your library for a creature card with the same mana value as this permanent, put that card onto the battlefield, then shuffle. Transfigure only as a sorcery.",
+    "zones": [
+      "field",
+      "library"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Champion",
+    "description": "When this enters the battlefield, sacrifice it unless you exile another creature you control. When this leaves the battlefield, that card returns to the battlefield.",
+    "zones": [
+      "field",
+      "graveyard",
+      "exile"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Changeling",
+    "description": "This card is every creature type.",
+    "zones": [
+      "hand",
+      "field",
+      "library",
+      "graveyard",
+      "exile"
+    ],
+    "timing": "characteristic",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Evoke",
+    "description": "You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters.",
+    "zones": [
+      "field",
+      "graveyard"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Hideaway",
+    "description": "When this permanent enters, look at a certain number of cards from the top of your library, exile one face down, then put the rest on the bottom of your library.",
+    "zones": [
+      "library",
+      "exile"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Prowl",
+    "description": "You may cast this for its prowl cost if you dealt combat damage to a player this turn with a subtype of creature.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Reinforce",
+    "description": "Pay the specified cost and discard this card: Put a number of +1/+1 counters on target creature.",
+    "zones": [
+      "hand",
+      "graveyard"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
   }
 ]
