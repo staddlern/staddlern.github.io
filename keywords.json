@@ -480,5 +480,203 @@
     "timing": "static",
     "type": "ability",
     "tree": "deciduous"
+  },
+  {
+    "name": "Provoke",
+    "description": "Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Storm",
+    "description": "When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Affinity",
+    "description": "This spell costs 1 less mana to cast for each specified permanent you control.",
+    "zones": [
+      "hand"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Entwine",
+    "description": "If you pay the entwine cost when casting a spell, you may choose all options instead of only one option.",
+    "zones": [
+      "hand"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Modular",
+    "description": "This enters with a number of +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Sunburst",
+    "description": "This enters with either a +1/+1 or charge counter on it for each color of mana spent to cast it.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Bushido",
+    "description": "Whenever this creature blocks or becomes blocked, it gains +X/+X until the end of the turn.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Soulshift",
+    "description": "When this creature dies, you may return target Spirit card with a mana value equal to a specified value or less from your graveyard to your hand.",
+    "zones": [
+      "hand",
+      "graveyard"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Splice",
+    "description": "As you cast a specific type of spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.",
+    "zones": [
+      "hand"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Offering",
+    "description": "You may cast this card any time you could cast an instant by sacrificing a specific subtype of spell and paying the difference in mana cost between this card and the sacrified card. Mana cost includes color.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Ninjutsu",
+    "description": "Pay the listed cost, then return an unblocked attacker you control to your hand: Put this card onto the battlefield from your hand tapped and attacking.",
+    "zones": [
+      "hand",
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Epic",
+    "description": "For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose new targets for the copy.",
+    "zones": [
+      "hand",
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Convoke",
+    "description": "Your creatures can help cast this spell. Each creature you tap while casting this spell pays for 1 colorless mana or 1 mana of that creature's color",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Dredge",
+    "description": "If you would draw a card, you may instead mill a certan number of cards. If you do, return this card from your graveyard to your hand.",
+    "zones": [
+      "hand",
+      "library",
+      "graveyard"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Transmute",
+    "description": "Pay the listed cost and discard this card: Search your library for a card with the same mana value as this card, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.",
+    "zones": [
+      "hand",
+      "library",
+      "graveyard"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Bloodthirst",
+    "description": "If an opponent was dealt damage this turn, this permanent enters with a certain number of +1/+1 counters on it.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Haunt",
+    "description": "When this creature dies, exile it, haunting target creature.",
+    "zones": [
+      "field",
+      "exile"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Replicate",
+    "description": "When yo ucast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Forecast",
+    "description": "Activate this ability only during your upkeep and only once each turn.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
   }
 ]
