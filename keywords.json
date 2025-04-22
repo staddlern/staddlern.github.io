@@ -195,8 +195,7 @@
     "zones": [
       "field",
       "hand",
-      "graveyard",
-      "exile"
+      "graveyard"
     ],
     "timing": "action",
     "type": "action",
@@ -273,5 +272,213 @@
     "timing": "action",
     "type": "action",
     "tree": "evergreen"
+  },
+  {
+    "name": "Banding",
+    "description": "Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creature with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Rampage",
+    "description": "Whenever this creature becomes blocked, it gains +X/+X until end of turn for each creature blocking it beyond the first.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Cumulative Upkeep",
+    "description": "At the beginning of your upkeep, if this permanent is on the battlefield, put an age counter on this permanent. Then you may pay the listed cost for each age counter on it. If you don't, sacrifice it.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Flanking",
+    "description": "Whenever a creature without flanking blocks this creature, the blocking creature gets -1/-1 until end of turn.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Phasing",
+    "description": "This phases in or out before you untap during each of your untap steps. While it's phased out, it's treated as though it doesn't exist.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Phase Out",
+    "description": "While it's phased out, it's treated as though it doesn't exist. It phases in before its controller untaps during their next untap step.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Buyback",
+    "description": "You may pay an additional cost as you cast this spell. If the buyback cost was paid, put this spell into its owner's hand instead of into that player's graveyard as it resolves.",
+    "zones": [
+      "hand",
+      "field",
+      "graveyard"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Shadow",
+    "description": "This creature can block or be blocked by only creatures with Shadow.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Cycling",
+    "description": "You may pay the listed cost to discard this card, then draw another card.",
+    "zones": [
+      "hand",
+      "library",
+      "graveyard"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Echo",
+    "description": "At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Horsemanship",
+    "description": "This creatuer can't be blocked except by creatures with hrosemanship.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Fading",
+    "description": "This permanent enters the battle field with a number of fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Kicker",
+    "description": "You may pay an additional cost as you cast this spell.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Multikicker",
+    "description": "You may pay an additional cost any number of times as you cast this spell.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Flashback",
+    "description": "You may cast this card from your graveyard for its flashback cost. Then exile it.",
+    "zones": [
+      "graveyard",
+      "exile"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Madness",
+    "description": "If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.",
+    "zones": [
+      "hand",
+      "graveyard",
+      "exile"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Fear",
+    "description": "This creature can't be blocked except by artifact creatures and/or black creatures.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Morph",
+    "description": "You may cast this face down as a 2/2 creature for 3 mana. Turn it face up any time for its morph cost.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Megamorph",
+    "description": "You may cast this face down as a 2/2 creature for 3 mana. Turn it face up any time for its megamorph cost and put a +1/+1 counter on it.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Amplify",
+    "description": "As this creature enters the battlefield, put a number of +1/+1 counters on it for each creature card with a certain type you reveal in your hand.",
+    "zones": [
+      "hand",
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
   }
 ]
