@@ -55,6 +55,10 @@
 						<option value="evergreen">Evergreen</option>
 					</select>
 				</div>
+				<div>
+					<label for="keywordname">Search by name:</label>
+					<input type="text" name="keywordname" id="keywordname">
+				</div>
 				<br>
 				<br>
 				<input type="button" class="buttons" value="Submit" onclick="loadKeywords()">
@@ -74,12 +78,14 @@
 				let b = document.forms["keywordsearch"]["timing"].value;
 				let c = document.forms["keywordsearch"]["type"].value;
 				let d = document.forms["keywordsearch"]["tree"].value;
+				let e = document.forms["keywordsearch"]["keywordname"].value;
 				let last = "";
 				for (let i = 0; i < keywordData.length; i++) {
 					if ((keywordData[i].zones.includes(a) || a == "any")
 						&& (keywordData[i].timing == b || b == "any")
 						&& (keywordData[i].type == c || c == "any")
-						&& (keywordData[i].tree == d || d == "any")) {
+						&& (keywordData[i].tree == d || d == "any")
+						&& (keywordData[i].name.includes(e) || e == "")) {
 						if (last != keywordData[i].name.substring(0, 1)) {
 							keywordstring += "<h2>"+keywordData[i].name.substring(0, 1)+":</h2>";
 							last = keywordData[i].name.substring(0, 1);
