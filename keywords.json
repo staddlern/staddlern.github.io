@@ -894,5 +894,425 @@
     "timing": "action",
     "type": "ability",
     "tree": "deciduous"
+  },
+  {
+    "name": "Conspire",
+    "description": "As you cast this spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose a new target for the copy.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Persist",
+    "description": "When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner’s control with a -1/-1 counter on it.",
+    "zones": [
+      "field",
+      "graveyard"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Wither",
+    "description": "This deals damage to creatures in the form of -1/-1 counters.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Retrace",
+    "description": "You may cast this card from your graveyard by discarding a land card as an additional cost to cast it.",
+    "zones": [
+      "hand",
+      "graveyard"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Devour",
+    "description": "As this enters, you may sacrifice any number of creatures. This creature enters the battlefield with X times that many +1/+1 counters on it.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Exalted",
+    "description": "Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Unearth",
+    "description": "Pay the specified cost: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.",
+    "zones": [
+      "field",
+      "graveyard"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Cascade",
+    "description": "When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.",
+    "zones": [
+      "library",
+      "exile"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Annihilator",
+    "description": "Whenever this creature attacks, defending player sacrifices a certain number of permanents.",
+    "zones": [
+      "field",
+      "graveyard"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Level Up",
+    "description": "Pay a specified cost: Put a level counter on this. Level up only as a sorcery.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Rebound",
+    "description": "If this spell was cast from your hand, instead of putting it into your graveyard as it resolves, exile it and, at the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.",
+    "zones": [
+      "hand",
+      "graveyard",
+      "exile"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Umbra Armor",
+    "description": "If enchanted permanent would be destroyed, instead remove all damage marked on it and destroy this Aura.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Infect",
+    "description": "This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Battle Cry",
+    "description": "Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Living Weapon",
+    "description": "When this Equipment enters, create a 0/0 black Phyrexian Germ creature token, then attach this Equipment to it.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Undying",
+    "description": "When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.",
+    "zones": [
+      "field",
+      "graveyard"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Miracle",
+    "description": "You may cast this card for its Miracle cost when you draw it if it's the first card you drew this turn.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Soulbond",
+    "description": "You may pair this creature with another unpaired creature when either enters. They remain paired for as long as you control both of them.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Overload",
+    "description": "You may cast this spell for its overload cost. If you do, change its text by replacing all instances of 'target' with 'each'.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Scavenge",
+    "description": "Pay the specified cost and exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.",
+    "zones": [
+      "field",
+      "graveyard",
+      "exile"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Unleash",
+    "description": "You may have this creature enter with a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Cipher",
+    "description": "When you cast this spell, you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of this card without paying its mana cost.",
+    "zones": [
+      "field",
+      "exile"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Evolve",
+    "description": "Whenever a creature you control enters, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Extort",
+    "description": "Whenever you cast a spell, you may pay 1 white or black mana. If you do, each opponent loses 1 life and you gain that much life.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Fuse",
+    "description": "You may cast one or both halves of this card from your hand.",
+    "zones": [
+      "hand"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Bestow",
+    "description": "If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached to a creature.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Tribute",
+    "description": "As this creature enters, an opponent of your choice may place a certain number of +1/+1 counters on it.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Dethrone",
+    "description": "Whenever this creature attacks the player with the most life or tied for most life, put a +1/+1 counter on it.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Hidden Agenda",
+    "description": "Start the game with this conspiracy face down in the command zone and secretly name a card. You may turn this conspiracy face up any time and reveal the chosen name.",
+    "zones": [
+      "commander"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Double Agenda",
+    "description": "Start the game with this conspiracy face down in the command zone and secretly name two different cards. You may turn this conspiracy face up any time and reveal the chosen names.",
+    "zones": [
+      "commander"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Outlast",
+    "description": "Pay the specified cost and tap this card: Put a +1/+1 counter on this creature. Activate only as a sorcery.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Prowess",
+    "description": "Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Dash",
+    "description": "You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.",
+    "zones": [
+      "field",
+      "hand"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Exploit",
+    "description": "When this creature enters, you may sacrifice a creature.",
+    "zones": [
+      "field",
+      "graveyard"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Menace",
+    "description": "This creature can't be blocked except by two or more creatures.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "evergreen"
+  },
+  {
+    "name": "Renown",
+    "description": "Whenever this creature deals combat damage to a player, if it isn't renowned, put a number of +1/+1 counter on it and it becomes renowned.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Awaken",
+    "description": "If you cast this card for the listed cost, also put a number of +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Devoid",
+    "description": "This card has no color.",
+    "zones": [
+      "field",
+      "hand",
+      "library",
+      "graveyard",
+      "exile"
+    ],
+    "timing": "characteristic",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Ingest",
+    "description": "Whenever this creature deals combat damage to a player, that player exiles the top card of their library",
+    "zones": [
+      "field",
+      "library",
+      "exile"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Myriad",
+    "description": "Whenever this creature attacks, for each opponent other than defending player, you may create a token that's a copy of this creature that's tapped and attacking that player or a planeswalker they control. If one or more tokens are created this way, exile the tokens at end of combat.",
+    "zones": [
+      "field",
+      "exile"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
   }
 ]
