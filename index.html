@@ -85,7 +85,7 @@
 						&& (keywordData[i].timing == b || b == "any")
 						&& (keywordData[i].type == c || c == "any")
 						&& (keywordData[i].tree == d || d == "any")
-						&& (keywordData[i].name.includes(e) || e == "")) {
+						&& (keywordData[i].name.toLowerCase().includes(e.toLowerCase()) || e == "")) {
 						if (last != keywordData[i].name.substring(0, 1)) {
 							keywordstring += "<h2>"+keywordData[i].name.substring(0, 1)+":</h2>";
 							last = keywordData[i].name.substring(0, 1);
