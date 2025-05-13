@@ -1314,5 +1314,652 @@
     "timing": "battle",
     "type": "ability",
     "tree": "deciduous"
+  },
+  {
+    "name": "Surge",
+    "description": "You may cast a spell for its Surge cost if you or a teammate have cast another spell in the same turn.",
+    "zones": [
+      "hand"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Skulk",
+    "description": "This creature can't be blocked by creatures with greater power.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Emerge",
+    "description": "You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.'",
+    "zones": [
+      "field",
+      "graveyard"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Escalate",
+    "description": "This card has multiple modes you can choose. Pay this cost for each mode chosen beyond the first.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Melee",
+    "description": "Whenever this creature attacks, it gets +1/+1 power until end of turn for each opponent you attacked with a creature this combat.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Crew",
+    "description": "Tap any number of other untapped creatures you control with total power X or greater: This permanent becomes an artifact creature until end of turn.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Fabricate",
+    "description": "When this permanent enters the battlefield, you may put a number of +1/+1 counters on it. If you don't, create that number of 1/1 colorless Servo artifact creature tokens.",
+    "zones": [
+      "field"
+    ],
+    "timing": "triggered",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Partner",
+    "description": "You can have two commanders if both have partner.",
+    "zones": [
+      "field",
+      "partner"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Partner with",
+    "description": "When this creature enters the battlefield, target player may put the named card into their hand from their library, then shuffle.",
+    "zones": [
+      "field",
+      "hand",
+      "library"
+    ],
+    "timing": "triggered",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Undaunted",
+    "description": "This spell costs 1 less to cast for each opponent.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Improvise",
+    "description": "Your artifacts can help cast this spell. Each artifact you tap after you're done activating mana abilities pays for 1 colorless mana.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Aftermath",
+    "description": "Cast this spell only from your graveyard. Then exile it.",
+    "zones": [
+      "graveyard",
+      "exile"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Embalm",
+    "description": "Pay a specified cost and exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie with no mana cost. Embalm only as a sorcery.",
+    "zones": [
+      "field",
+      "graveyard",
+      "exile"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Eternalize",
+    "description": "Pay a specified cost and exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie with no mana cost. Eternalize only as a sorcery.",
+    "zones": [
+      "field",
+      "graveyard",
+      "exile"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Afflict",
+    "description": "When this creature becomes blocked, the defending player loses a certain amount of life.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Ascend",
+    "description": "If you control ten or more permanents, you get the city's blessing for the rest of the game",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Assist",
+    "description": "Another player can pay up to a certain amount of this spell's cost.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Jump-Start",
+    "description": "You may cast this spell from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.",
+    "zones": [
+      "field",
+      "hand",
+      "graveyard",
+      "exile"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Mentor",
+    "description": "Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Afterlife",
+    "description": "When this creature dies, create a certain amount of 1/1 white and black Spirit creature token(s) with flying.",
+    "zones": [
+      "field",
+      "graveyard"
+    ],
+    "timing": "triggered",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Riot",
+    "description": "This creature enters with your choice of a +1/+1 counter or haste.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Spectacle",
+    "description": "You may cast this spell for its spectacle cost rather than its mana cost if an opponent lost life this turn.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Escape",
+    "description": "You may cast this card from your graveyard for its escape cost.",
+    "zones": [
+      "field",
+      "graveyard"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Companion",
+    "description": "If this card is your chosen companion, you may put it into your hand from outside the game for 3 colorless mana any time you could cast a sorcery.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Mutate",
+    "description": "If you cast this spell for its mutate cost, put it over or under target non-Human creature you own. They mutate into the creature on top plus all abilities from under it.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Encore",
+    "description": "Pay a specific cost and exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.",
+    "zones": [
+      "field",
+      "graveyard",
+      "exile"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Boast",
+    "description": "Activate this ability only if this creature attacked this turn and only once each turn.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Foretell",
+    "description": "During your turn, you may pay 2 colorless mana and exile this card from your hand face down. Cast it on a later turn for its foretell cost.",
+    "zones": [
+      "field",
+      "hand",
+      "exile"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Demonstrate",
+    "description": "When you cast this spell, you may copy it. If you do, choose an opponent to also copy it. Players may choose new targets for their copies.",
+    "zones": [
+      "field"
+    ],
+    "timing": "triggered",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Daybound",
+    "description": "If a player casts no spells during their own turn, it becomes night next turn.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Nightbound",
+    "description": "If a player casts at least two spells during their own turn, it becomes day next turn.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Disturb",
+    "description": "You may cast this card from your graveyard transformed for its distrub cost.",
+    "zones": [
+      "field",
+      "graveyard"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Decayed",
+    "description": "This creature can't block. When it attacks, sacrifice it at the end of combat.",
+    "zones": [
+      "field",
+      "graveyard"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Cleave",
+    "description": "You may cast this spell for its cleave cost. If you do, remove the words in square brackets.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Training",
+    "description": "Whenever this creature attacks with another creature with greating power, put a +1/+1 counter on this creature.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Compleated",
+    "description": "Phyrexian hybrid mana can be paid with X, Y, or 2 life. For each Phyrexian hybrid mana paid with life, this planeswalker enters with two fewer loyalty counters.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Reconfigure",
+    "description": "Pay a specific cost and attach this card to target creature you control or unattach from a creature. Reconfigure only as a sorcery. While attached this card isn't a creature.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Blitz",
+    "description": "If you cast this spell for its blitz cost, it gains haste and 'When this creature dies, draw a card.' Sacrifice it at the beginning of the next end step.",
+    "zones": [
+      "field",
+      "graveyard"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Casualty",
+    "description": "As you cast this spell, you may sacrifice a creature with power X (or more). When you do, copy this spell.",
+    "zones": [
+      "field",
+      "graveyard"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Enlist",
+    "description": "As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Read Ahead",
+    "description": "Choose a chapter and start with that many lore counters. Add one after your draw step. Skipped chapters don't trigger. Sacrifice after III.'",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Ravenous",
+    "description": "This creature enters with +1/+1 counters on it equal to extra mana spent on this spell. If the extra mana spent equals 5 or more, draw a card when it enters.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Squad",
+    "description": "As an additional cost to cast this spell, you may pay the specified cost any number of times. When this creature enters the battlefield, create that many tokens that are copies of it.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Visit",
+    "description": "At the beginning of your main phase, roll a six sided die. If the result is lit up on any Attractions you control, you may trigger their abilities.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Prototype",
+    "description": "You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Living Metal",
+    "description": "As long as it's your turn, this Vehicle is also a creature.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "More Than Meets the Eye",
+    "description": "You may cast this card converted for a specified cost.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "For Mirrodin!",
+    "description": "When this equipment enters, create a 2/2 red Rebel creature token, then attach this to it.",
+    "zones": [
+      "field"
+    ],
+    "timing": "triggered",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Toxic",
+    "description": "Players dealt damage by this creature also get a certain number of poison counters.",
+    "zones": [
+      "field"
+    ],
+    "timing": "battle",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Backup",
+    "description": "When this creature enters, put a number of +1/+1 counters on target creature. If that's another creature, it gains the listed abilities until the end of your turn.",
+    "zones": [
+      "field"
+    ],
+    "timing": "triggered",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Bargain",
+    "description": "You may sacrifice an artifact, enchantment, or token as you cast this spell.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Craft",
+    "description": "Pay the specified cost, exile this artifact, and exile a card of the listed type you control or from your graveyard: Return this card transformed under its owner's control. Craft only as a sorcery.",
+    "zones": [
+      "field",
+      "graveyard",
+      "exile"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Disguise",
+    "description": "You may cast this face down card for 3 colorless mana as a 2/2 creature with ward 2. Turn it face up any time for its disguise cost.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Solved",
+    "description": "At the beginning of your end step, if a certain condition is met and this Case is not solved, it becomes solved.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Plot",
+    "description": "You may pay the specified cost and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.",
+    "zones": [
+      "field",
+      "hand",
+      "exile"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Saddle",
+    "description": "tap any number of other creatures you control with total power X or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Spree",
+    "description": "Choose one or more additional costs, then use all effects in order.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Freerunning",
+    "description": "You may cast a spell for its freerunning cost if you dealt combat damage to a player this turn with an Assassin or commander.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Gift",
+    "description": "You may promise an opponent a gift as you cast this spell. If you do, they get what you're gifting them.",
+    "zones": [
+      "field",
+      "hand"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Offspring",
+    "description": "You may pay an additional cost as you cast this spell. If you do, when this creature enters, create a 1/1 token copy of it.",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Impending",
+    "description": "If you cast this spell for its impending cost, it enters with a number of time counters and isn't a creature until the last is removed. At the beginning of your end step, remove a time counter from it.'",
+    "zones": [
+      "field"
+    ],
+    "timing": "static",
+    "type": "ability",
+    "tree": "deciduous"
+  },
+  {
+    "name": "",
+    "description": "",
+    "zones": [
+
+    ],
+    "timing": "",
+    "type": "ability",
+    "tree": "deciduous"
   }
 ]
