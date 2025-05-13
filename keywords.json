@@ -1953,13 +1953,409 @@
     "tree": "deciduous"
   },
   {
-    "name": "",
-    "description": "",
+    "name": "Fateseal",
+    "description": "Look at a number of cards from the top of an opponent's library, then put any number of them on the bottom of that player's library and the rest on top in any order.",
     "zones": [
-
+      "library"
     ],
-    "timing": "",
-    "type": "ability",
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Clash",
+    "description": "Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher mana value.",
+    "zones": [
+      "library"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Planeswalk",
+    "description": "Put each face up plane or phenomenon card on the bottom of its owner's planar decfk, face down, then move the top card of your planar deck off that planar deck and turn it face up. Only used in Planechase format.",
+    "zones": [
+      "misc"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Set in Motion",
+    "description": "Move a scheme card off the top of your scheme deck and turn it face up.",
+    "zones": [
+      "misc"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Abandon",
+    "description": "Turn a face-up ongoing scheme card face down and put it on the bottom of its owner's scheme deck.",
+    "zones": [
+      "misc"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Proliferate",
+    "description": "Choose any number of permanents and/or players, then give each another counter of each kind already there.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Transform",
+    "description": "Turn a double-faced card on the back side, changing the card face that is visible and active.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Detain",
+    "description": "Until your next turn, the chosen permanent can't attack or block and its activated abilities can't be activated.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Populate",
+    "description": "Create a token that's a copy of a creature token you control.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Monstrosity",
+    "description": "If this permanent isn't monsterous, put a number of +1/+1 counters on it and it becomes monstrous.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Vote",
+    "description": "Players vote for the chosen effect/target before it resolves.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Bolster",
+    "description": "Choose a creature you control with the least toughness or tied for the least toughness among creatures you control. Put a number of +1/+1 counters on that creature.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Manifest",
+    "description": "Put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Manifest Dread",
+    "description": "Look at the top two cards of your library. Put one onto the battlefield face down as a 2/2 creature and the other into your graveyard. Turn it face up any time for its mana cost if it’s a creature card.",
+    "zones": [
+      "field",
+      "graveyard"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Support",
+    "description": "Put a +1/+1 counter on each of up to X other target creatures.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Investigate",
+    "description": "Create a Clue token. It's an artiffact with 'Spend 2 colorless mana and sacrifice this artifact: Draw a card.'",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Meld",
+    "description": "Combine two meld cards into one oversized card if you control the proper pair.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Goad",
+    "description": "Until your next turn, the goaded creature attacks each combat if able and attacks a player other than you if able.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Exert",
+    "description": "An exerted permanent won't untap during your next untap step.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Explore",
+    "description": "Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back on top or into your graveyard.",
+    "zones": [
+      "field",
+      "hand",
+      "library",
+      "graveyard"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Assemble",
+    "description": "Put the top card of your Contraption deck face up onto one of your sprockets.",
+    "zones": [
+      "misc"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Surveil",
+    "description": "Look at the top X cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.",
+    "zones": [
+      "library",
+      "graveyard"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Adapt",
+    "description": "If this creature has no +1/+1 counters on it, pay the listed cost and put a number of +1/+1 counters on it.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Amass",
+    "description": "Put a number of +1/+1 counters on an Army you control. It's also the listed subtype. If you don't control an Army, create a 0/0 black Army creature token of the chosen subtype first.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Learn",
+    "description": "You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.",
+    "zones": [
+      "hand",
+      "misc"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Venture into the Dungeon",
+    "description": "Enter the first room or advance to the next room of the dungeon.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Venture into X",
+    "description": "If you're in a dungeon, advance to the next room. If you're not, enter X. Enter the first room or advance to the next room.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Connive",
+    "description": "Draw a number of cards, then discard the same number. Put a +1/+1 counter on this creature for each nonland card discarded this way.",
+    "zones": [
+      "field",
+      "hand",
+      "library",
+      "graveyard"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Open an Attraction",
+    "description": "Put the top card of your Attraction deck onto the battlefield.",
+    "zones": [
+      "field",
+      "misc"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Convert",
+    "description": "Turn a double-sided card over to its other side.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Incubate",
+    "description": "Create an Incubator token with a number of +1/+1 counters on it and the ability 'Spend 2 colorless mana and transform this artifact.' It transforms into a 0/0 Phyrexian artifact creature.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "The Ring Tempts You",
+    "description": "As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then, your emblem gains its next ability and you choose a creature you control to become or remain your Ring-bearer.",
+    "zones": [
+      "field",
+      "misc"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Face a Villainous Choice",
+    "description": "Your opponent must choose between one of two effects.",
+    "zones": [
+      "misc"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Time Travel",
+    "description": "For each suspended card you own and each permanent you control with a time counter on it, you may add or remove a time counter.",
+    "zones": [
+      "field",
+      "exile"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Discover",
+    "description": "Exile card from the top of your library until you exile a nonland card with a specified mana value or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.",
+    "zones": [
+      "library",
+      "exile"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Cloak",
+    "description": "Put it onto the battlefield as a 2/2 creature with ward 2. Turn it face up any time for its mana cost if it's a creature card.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Collect Evidence",
+    "description": "Exile cards with a specified total mana value or greater from your graveyard.",
+    "zones": [
+      "graveyard",
+      "exile"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Suspect",
+    "description": "Target a creature, they become suspected. A suspected creature has menace and can't block.",
+    "zones": [
+      "field"
+    ],
+    "timing": "action",
+    "type": "action",
+    "tree": "deciduous"
+  },
+  {
+    "name": "Forage",
+    "description": "Exile three cards from your graveyard or sacrifice a Food.",
+    "zones": [
+      "field",
+      "graveyard",
+      "exile"
+    ],
+    "timing": "action",
+    "type": "action",
     "tree": "deciduous"
   }
 ]
